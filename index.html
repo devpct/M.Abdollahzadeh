@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="thame-color" content="#7000ff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="" />
+    <title>Mohammad Abdollahzadeh</title>
+    <style>
+      :root {
+        --swiper-theme-color: #fff;
+        --swiper-pagination-bullet-inactive-color: #000;
+      }
+    </style>
+  </head>
+  <body onload="loading()">
+    <div class="loading">
+      <div class="icon-loading">
+        <div class="loading-circle circle1"></div>
+        <div class="loading-circle circle2"></div>
+        <div class="loading-circle circle3"></div>
+      </div>
+      <div class="text-loading">
+        <div class="letter-holder">
+          <div class="l-1 letter">L</div>
+          <div class="l-2 letter">o</div>
+          <div class="l-3 letter">a</div>
+          <div class="l-4 letter">d</div>
+          <div class="l-5 letter">i</div>
+          <div class="l-6 letter">n</div>
+          <div class="l-7 letter">g</div>
+          <div class="l-8 letter">.</div>
+          <div class="l-9 letter">.</div>
+          <div class="l-10 letter">.</div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <header class="header">
+        <div class="container">
+        <section class="header-top">
+            <nav class="nav">
+                <div class="nav-name">
+                  <h3 title="Front-End Developer" class="nav-name-h3">
+                    Mohammad Abdollahzadeh
+                  </h3>
+                </div>
+                <div class="burger-menu">
+                  <span class="line1 line"></span>
+                  <span class="line2 line"></span>
+                  <span class="line3 line"></span>
+                </div>
+                <ul class="menu">
+                  <li onclick="topFunction()" class="menu-items">
+                    <a  href="#Profile" class="menu-link">Profile</a>
+                  </li>
+                  <li class="menu-items">
+                  <a href="#SocialNetworks" class="menu-link"
+                    >Social Networks</a
+                    >
+                  </li>
+                  <li class="menu-items">
+                    <a href="#CV" class="menu-link">CV</a>
+                </li>
+                <li class="menu-items">
+                  <a href="#sendMessage" class="menu-link">Send Message</a>
+                </li>
+              </ul>
+              <div class="search">
+                <i class="bi bi-search icon-search"></i>
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search..."
+                  />
+                </div>
+                <div class="menu-burger">
+                <div class="search2">
+                  <i class="bi bi-search icon-search2"></i>
+                  <input
+                    type="text"
+                    class="search-input2"
+                    placeholder="Search..."
+                  />
+                </div>
+                <ul class="menu2">
+                  <li onclick="topFunction()" class="menu-items2">
+                    <a  href="#Profile" class="menu-link items1">Profile</a>
+                    <span></span>
+                  </li>
+                  <li class="menu-items2">
+                    <a href="#SocialNetworks" class="menu-link items2"
+                      >Social Networks</a
+                    >
+                    <span></span>
+                  </li>
+                  <li class="menu-items2">
+                    <a href="#CV" class="menu-link items3">CV</a>
+                    <span></span>
+                  </li>
+                  <li class="menu-items2">
+                    <a href="#sendMessage" class="menu-link items4">Send Message</a>
+                    <span></span>
+                  </li>
+                </ul>
+                <div class="icon-social-networka">
+                  <a href="https://github.com/developer-2006" target="_blank" title="Github" class="github-icon">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://twitter.com/m_a_developer" target="_blank" title="Twitter" class="twitter-icon">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                  <a  href="https://www.linkedin.com/in/developer2006/" target="_blank" title="Linkedin" class="linkedin-icon">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a  href="https://www.instagram.com/m.a.developer/" target="_blank" title="Instagram" class="instagram-icon">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="close-page"></div>
+            </nav>
+          </section>
+          <section class="header-bottom">
+            <h1 id="#Profile" class="title-profile">Profile</h1>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="content-profile text-profile2">
+                    <p class="name-profile">Name : Mohammad</p>
+                    <p class="last-name-profile">Last Name : Abdollahzadeh</p>
+                    <p class="born-profile">Born : 1384/12/14</p>
+                    <p class="job-profile">Job : Developer Web</p>
+                  </div>
+                  <picture class="image-profile">
+                    <img
+                      src="profile.png"
+                      alt="Illustration Profile"
+                      loading="lazy"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <div class="content-profile text-profile2">
+                    <h2 class="title-developer">Developer</h2>
+                    <p class="area-developer">Area : Front-end</p>
+                    <p class="skills-developer">
+                      Skills : Html - Css - Javascript - Sass - Bootstrap -
+                      React.js - SEO - Figma
+                    </p>
+                    <p class="start-developer">Start Front-end : 1401/03/5</p>
+                  </div>
+                  <picture class="image-profile image-developer">
+                    <img
+                      src="developer.png"
+                      alt="3D Developer"
+                      loading="lazy"
+                    />
+                  </picture>
+                </div><span id="SocialNetworks"></span>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="social-networks">
+                <h1 class="title-social-networks">Social Networks</h1>
+              <div class="content-social-networks">
+                <div class="github-content">
+                  <div class="github-content-top">
+                    <picture class="profile-social-networks">
+                      <img
+                        src="profilegithub.jpg"
+                        alt="Profile Github"
+                        loading="lazy"
+                      />
+                    </picture>
+                    <div class="page-github">
+                      <p class="name-social-networks">Mohammad Abdollahzadeh</p>
+                      <p class="user-github">developer-2006</p>
+                    </div>
+                    <i class="bi bi-github icon-github"></i>
+                  </div>
+                  <div class="content-comment">
+                    <p class="comment-github">
+                      وقتی میخوای بفهمی که طرف مقابل برنامه نویسه گیت هابشو
+                      ببین!
+                    </p>
+                    <p class="time-comment">00:00 PM . Sep3, 2022</p>
+                  </div>
+                  <a
+                    href="https://github.com/developer-2006?tab=repositories"
+                    class="button-social-networks"
+                    target="_blank"
+                  >
+                    <i class="bi bi-arrow-left"></i>
+                    <p>View projects</p>
+                  </a>
+                </div>
+                <div class="twitter-content">
+                  <div class="twitter-content-top">
+                    <picture class="profile-social-networks">
+                      <img
+                        src="profilesocialnetworks.jpg"
+                        alt="Profile Twitter"
+                        loading="lazy"
+                      />
+                    </picture>
+                    <div class="page-twitter">
+                      <p class="name-social-networks">Mohammad Abdollahzadeh</p>
+                      <p class="user-twitter">m_a_developer</p>
+                    </div>
+                    <i class="bi bi-twitter icon-twitter"></i>
+                  </div>
+                  <div class="content-comment">
+                    <p class="comment-twitter">The secret of life = goal ;</p>
+                    <p class="time-comment">00:00 PM . Sep3, 2022</p>
+                  </div>
+                  <a
+                    href="https://twitter.com/m_a_developer"
+                    class="button-social-networks"
+                    target="_blank"
+                  >
+                    <i class="bi bi-arrow-left"></i>
+                    <p>More Tweets</p>
+                  </a>
+                </div>
+                <div class="linkedin-content">
+                  <div class="linkedin-content-top">
+                    <picture class="profile-social-networks">
+                      <img
+                        src="profilesocialnetworks.jpg"
+                        alt="Profile Linkedin"
+                        loading="lazy"
+                      />
+                    </picture>
+                    <div class="page-linkedin">
+                      <p class="name-social-networks">
+                        Mohammad Abdollahzadeh <span>.You</span>
+                      </p>
+                      <p class="bio-linkedin">Front-end Developer & Designer</p>
+                      <p class="time-comment">16h</p>
+                    </div>
+                    <i class="bi bi-linkedin icon-linkedin"></i>
+                  </div>
+                  <div class="content-comment">
+                    <p class="comment-linkedin">
+                      مهم ترین چیز زمانه چون زمان همه چیزو معلوم می کنه!
+                    </p>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/developer2006/"
+                    class="button-social-networks"
+                    target="_blank"
+                  >
+                    <i class="bi bi-arrow-left"></i>
+                    <p>More Posts</p>
+                  </a>
+                </div>
+                <div class="instagram-content"><span id="CV" ></span>
+                  <div class="instagram-content-top">
+                    <picture class="profile-social-networks">
+                      <img
+                        src="profilesocialnetworks.jpg"
+                        alt="Profile Instagram"
+                        loading="lazy"
+                      />
+                    </picture>
+                    <div class="page-instagram">
+                      <p class="name-social-networks">Mohammad Abdollahzadeh</p>
+                      <p class="user-instagram">m.a.developer</p>
+                    </div>
+                    <i class="bi bi-instagram icon-instagram"></i>
+                  </div>
+                  <div class="content-comment">
+                    <p class="comment-instagram">
+                      برای بدست اوردن تجربه باید پیشرفت کرد.
+                    </p>
+                    <p class="time-comment">00:00 PM . Sep3, 2022</p>
+                  </div>
+                  <a
+                    href="https://www.instagram.com/m.a.developer/"
+                    class="button-social-networks"
+                    target="_blank"
+                  >
+                    <i class="bi bi-arrow-left"></i>
+                    <p>View posts</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          </section>
+          <section  class="footer-top">
+            <div class="container">
+            <div class="content-resumes">
+                <div class="content-resumes-left">
+                  <h3 class="title-resumes">
+                    Click the button below to download Resumes
+                  </h3>
+                  <a href="Resumes.png" class="download-resumes" download>
+                    <i class="bi bi-download icon-download"></i>
+                    <p>Resume Download</p>
+                </a>
+              </div>
+              <div class="content-resumes-right">
+                <picture class="image-resumes">
+                  <img src="Resumes.png" alt="Resumes" />
+                </picture>
+              </div>
+            </div>
+          </div><span id="sendMessage"></span>
+          </section>
+          <section class="footer-bottom">
+            <form  class="form-send-message" action="https://formspree.io/f/xknejqqa"
+            method="POST" >
+              <div class="form-message">
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your Name..." maxlength="26"  oninvalid="alert('اسمتو ننوشتی (:');" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email..."><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Enter your message..." oninvalid="alert('پیامی ننوشتی (:');" required></textarea><br>
+                <input type="submit"  id="send" value="Send">
+              </div>
+            </form>
+            <div class="content-send-message">
+              <div class="container">
+                <div class="icon-social-networka">
+                  <a href="https://github.com/developer-2006" target="_blank" title="Github" class="github-icon">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://twitter.com/m_a_developer" target="_blank" title="Twitter" class="twitter-icon">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                  <a  href="https://www.linkedin.com/in/developer2006/" target="_blank" title="Linkedin" class="linkedin-icon">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a  href="https://www.instagram.com/m.a.developer/" target="_blank" title="Instagram" class="instagram-icon">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+                  <div class="web-info">
+                    <p class="year-construction">Year of construction © 2022-2023</p>
+                    <p class="maker">Website Mohammad Abdollahzadeh All rights reserved</p>
+                  </div>
+              </div>
+              <button onclick="topFunction()" class="go-top" title="Go to top"> <i class="bi bi-chevron-up"></i></button>
+            </div>
+          </section>
+      </header>
+    </main>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+
+    AOS.init();
+  </script>
+</html>
