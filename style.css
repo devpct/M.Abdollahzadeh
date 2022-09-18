@@ -712,7 +712,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 100vh;
   overflow: visible;
   z-index: 8;
 }
@@ -882,6 +882,9 @@ body {
   }
   .form-send-message {
     width: 60%;
+  }
+  .icon-loading {
+    height: 90vh;
   }
 }
 
