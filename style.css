@@ -712,7 +712,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 98vh;
+  height: 95vh;
   overflow: visible;
   z-index: 8;
 }
