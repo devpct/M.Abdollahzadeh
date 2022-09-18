@@ -938,7 +938,7 @@ body {
     font-size: 16px;
   }
   .image-profile img {
-    width: 45%;
+    width: 43%;
   }
   .content-profile {
     line-height: 25px;
@@ -950,20 +950,24 @@ body {
   .content-social-networks {
     font-size: 14px;
   }
+  .swiper {
+    width: 90%;
+  }
+
+  .social-networks {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 535px) {
   .container {
     max-width: 100%;
   }
-  .image-profile img {
-    width: 50%;
-  }
   .image-developer img {
-    width: 45%;
+    width: 43%;
   }
   .content-profile {
-    line-height: 25px;
+    line-height: 28px;
     text-align: center;
   }
 }
